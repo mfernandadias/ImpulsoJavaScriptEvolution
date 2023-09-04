@@ -1,6 +1,6 @@
 // o que são vetores e arrya 
 
-let arrays = ['string', 1, true];
+/*let arrays = ['string', 1, true];
 console.log(array);
 
 //forEach 
@@ -21,4 +21,9 @@ var string = object.string;
 console.log(string);
 
 var srrayInterno = object.array;
-console.log(arrayInerno);
+console.log(arrayInerno); */
+
+function escopoLocal() {
+	let escopoLocalInterno = 'local';
+}
+console.log(escopoLocalInterno);
