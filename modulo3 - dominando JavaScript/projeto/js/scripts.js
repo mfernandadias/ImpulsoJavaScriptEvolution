@@ -8,4 +8,4 @@ function increment() {
 function dec() {
     currentNumber = currentNumber - 1;
     currentNumberWrapper.innerHTML = currentNumber;
-}
+} 
