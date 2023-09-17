@@ -14,7 +14,7 @@ se o tamanho do array for diferente do número enviado como parâmtro, lance um 
 RangeError
 * utilize a declaração try ... catch 
 * filtre as chamadas de catch por cada tipo de erro utilizando o operador instanceof 
-*/
+
 
 function validaArray(arr, num) {
     try {
@@ -44,4 +44,11 @@ function validaArray(arr, num) {
   }
 }
 
-console.log(validaArray());
+console.log(validaArray()); */
+
+const NovoErro = new Error();
+
+NovoErro.name = "Novo Erro";
+NovoErro.message = "Este erro nunca ocorreu"
+
+console.log(newError());
